@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 172 67">
+<!-- width="172" height="67" -->
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #30e3ca;
+      }
+
+      .cls-1 {
+        font-size: 40px;
+        font-family: NotoSansHK-Bold, Noto Sans HK;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        font-size: 11px;
+        font-family: NotoSansHK-Light, Noto Sans HK;
+        font-weight: 300;
+        letter-spacing: 0.693em;
+      }
+    </style>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-435.533 -303.472)">
+    <text id="COSMOS" class="cls-1" transform="translate(521.533 349.472)"><tspan x="-85.2" y="0">COSMOS</tspan></text>
+    <text id="Green_Metals" data-name="Green Metals" class="cls-2" transform="translate(520.533 367.472)"><tspan x="-80.003" y="0">GREEN METALS</tspan></text>
+  </g>
+</svg>
