@@ -163,7 +163,7 @@
 */
 @media (max-width: 992px) {
   main {
-    height: 130vh;
+    height: 100vh;
   }
 
   /* HEADER */
@@ -206,7 +206,7 @@
 
   /* FRONT SECTION CONTENT */
   .front {
-    height: 100vh;
+    height: 75vh;
   }
 
   .front-text {
@@ -263,6 +263,7 @@
 
   /* SOCIAL LINKS */
   .social-links {
+    display: none;
     text-align: center;
   }
 
