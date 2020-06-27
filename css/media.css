@@ -200,6 +200,10 @@
     color: var(--secondary-color);
   }
 
+  .menu a::after {
+    display: none;
+  }
+
   /* FRONT SECTION CONTENT */
   .front {
     height: 100vh;
