@@ -95,11 +95,11 @@
   }
 
   .front h1 {
-    font-size: 1.7rem;
+    /* font-size: 1.7rem; */
   }
 
   .front h1 span {
-    font-size: 2.7rem;
+    /* font-size: 2.7rem; */
   }
 
   .cta {
@@ -210,20 +210,20 @@
   }
 
   .front-text {
-    padding-top: 1.6em;
+    /* padding-top: 1.6em; */
     text-align: center;
   }
 
   .front h1 {
-    font-size: 2.5rem;
+    /* font-size: 2.5rem; */
   }
 
   .front h1 span {
-    font-size: 3rem;
+    /* font-size: 3rem; */
   }
 
   .front p {
-    font-size: 1.2rem;
+    /* font-size: 1.2rem; */
     margin-top: 2em;
   }
 
@@ -233,7 +233,7 @@
   }
 
   .cta .btn-link {
-    font-size: 1rem;
+    /* font-size: 1rem; */
   }
 
   /* CAROUSEL IMAGE SLIDER */
