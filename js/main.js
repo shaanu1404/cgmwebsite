@@ -25,3 +25,29 @@ backdrop.addEventListener("click", function () {
     backdrop.style.display = "none";
   }
 });
+
+// IMAGE SLIDER
+
+const slider = document.querySelector(".slider");
+const tracker = document.querySelector(".tracker");
+let startWith = 1;
+let count = startWith;
+track(0);
+
+function slide() {
+  let imgs = slider.querySelectorAll(".img");
+  let pos = imgs[count].getAttribute("data-index");
+  slider.style.left = `-${pos * slider.clientWidth}px`;
+  track(count);
+  count = count < 2 ? count + 1 : 0;
+}
+
+function track(count) {
+  const allSpan = tracker.querySelectorAll("span");
+  allSpan.forEach(function (span) {
+    span.classList.remove("active");
+  });
+  allSpan[count].classList.add("active");
+}
+
+setInterval(slide, 3000);
