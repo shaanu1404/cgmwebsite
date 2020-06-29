@@ -153,13 +153,13 @@
 }
 
 /* Large devices (desktops, 992px and up) */
-/* ++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+/* ++++++++++++++++++++++++++++++++++++++++++++++++++++
           l         a     rrrrr   gggg  eeeee
-          l        a a    r    r g    g e    
+          l        a a    r    r g    g e
           l       aaaaa   rrrrr  g      eeeee
-          l      a     a  r   r  g  ggg e    
+          l      a     a  r   r  g  ggg e
           lllll a       a r    r  gggg  eeeee
-   ++++++++++++++++++++++++++++++++++++++++++++++++++++ 
+   ++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 @media (max-width: 992px) {
   main {
@@ -210,7 +210,7 @@
   }
 
   .front-text {
-    /* padding-top: 1.6em; */
+    padding-top: 1.6em;
     text-align: center;
   }
 

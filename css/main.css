@@ -15,6 +15,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Noto Sans HK", sans-serif;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -31,6 +32,22 @@ ul {
 
 .h-full {
   height: 100%;
+}
+
+.text-primary {
+  color: var(--primary-color);
+}
+
+.text-secondary {
+  color: var(--secondary-color);
+}
+
+.text-accent-1 {
+  color: var(--accent1);
+}
+
+.text-accent-2 {
+  color: var(--accent2);
 }
 
 /* Website design css starts here. */
@@ -269,4 +286,97 @@ main {
   font-size: 1.2rem;
   color: var(--secondary-color);
   margin-right: 1em;
+}
+
+/* about section */
+/*
+===========================================
+     a      bbbbb   oooo  u    u ttttttt   
+    a a     b    b o    o u    u    t      
+   a   a    bbbbb  o    o u    u    t      
+  aaaaaaa   bbbbb  o    o u    u    t      
+ a       a  b    b o    o u    u    t      
+a         a bbbbb   oooo   uuuu     t                 
+===========================================
+*/
+
+#about {
+  background: var(--secondary-color);
+  padding-bottom: 5em;
+}
+
+#about .container {
+  padding-top: 3em;
+}
+
+.page-heading {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#about .section-heading {
+  font-size: 1.2rem;
+  margin: 1.5em 0 1em 0;
+  font-weight: bold;
+}
+
+.about-text {
+  font-size: 0.9rem;
+  font-weight: 400;
+  color: black;
+  line-height: 1.5em;
+  text-align: justify;
+  margin-bottom: 2em;
+}
+
+#about .img {
+  width: 100%;
+  border-radius: 0.5em;
+}
+
+.info-card {
+  background: #fff;
+  border-radius: 0.5em;
+}
+
+.info-card img {
+  width: 100%;
+  min-height: 190px;
+  object-fit: cover;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+}
+
+.info-card .card-content {
+  min-height: 200px;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.info-card .card-content .info-card-heading {
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+.info-card .card-content .info-card-text {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 0.9rem;
+  overflow: hidden;
+}
+
+.info-card .card-content a {
+  padding: 0.6em 0.8em;
+  background: var(--accent2);
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+  border-radius: 0.25em;
+  margin-top: auto;
+}
+.info-card .card-content a::after {
+  content: "...";
 }
